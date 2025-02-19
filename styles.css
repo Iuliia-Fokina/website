@@ -19,12 +19,30 @@ body {
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--background-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
+    flex: 1;
+}
+
+/* Header */
+.site-header {
+    background-color: white;
+    padding: 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid var(--nav-hover);
+}
+
+.site-header h2 {
+    color: var(--primary-color);
+    margin: 0;
+    font-size: 1.5rem;
 }
 
 /* Navigation */
@@ -107,6 +125,26 @@ section {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+/* Footer */
+.site-footer {
+    background-color: white;
+    padding: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+    border-top: 1px solid var(--nav-hover);
+}
+
+.site-footer a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.site-footer a:hover {
+    color: var(--primary-color);
+}
+
 /* Conference list */
 .conference-list {
     list-style: none;
@@ -146,5 +184,9 @@ section {
     .profile-image {
         width: 100%;
         max-width: 300px;
+    }
+
+    .site-header h2 {
+        font-size: 1.2rem;
     }
 }
