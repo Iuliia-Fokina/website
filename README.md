@@ -18,7 +18,7 @@ To host this website on GitHub Pages:
 3. Under "Source", select "main" branch
 4. Click Save
 
-The site will be published at `https://YOUR_USERNAME.github.io/REPOSITORY_NAME/`
+The site will be published at `https://iuliia-fokina.github.io/website`
 
 Note: Since this is a multi-page website, all internal links are relative (e.g., `work-study.html`), so they will work automatically on GitHub Pages.
 
