@@ -13,19 +13,10 @@ This is a simple academic portfolio website built with HTML and CSS, designed to
 
 To host this website on GitHub Pages:
 
-1. Create a new repository on GitHub (if not already created)
-2. Push the code to GitHub:
-
-   ```bash
-   git remote add origin https://github.com/YOUR_USERNAME/REPOSITORY_NAME.git
-   git branch -M main
-   git push -u origin main
-   ```
-
-3. Go to your repository's Settings on GitHub
-4. Scroll down to the "GitHub Pages" section
-5. Under "Source", select "main" branch
-6. Click Save
+1. Go to your repository's Settings on GitHub
+2. Scroll down to the "GitHub Pages" section
+3. Under "Source", select "main" branch
+4. Click Save
 
 The site will be published at `https://YOUR_USERNAME.github.io/REPOSITORY_NAME/`
 
