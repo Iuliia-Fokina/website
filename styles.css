@@ -94,6 +94,19 @@ section {
     margin-bottom: 2rem;
 }
 
+/* Profile Image */
+.profile-image-container {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.profile-image {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
 /* Conference list */
 .conference-list {
     list-style: none;
@@ -128,5 +141,10 @@ section {
     
     main {
         padding: 1.5rem;
+    }
+
+    .profile-image {
+        width: 100%;
+        max-width: 300px;
     }
 }
